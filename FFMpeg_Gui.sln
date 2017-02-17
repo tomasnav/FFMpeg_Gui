@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FFMpeg_Gui", "FFMpeg_Gui\FFMpeg_Gui.vbproj", "{36DD80E2-3220-490D-B0F7-C38D8BEB3495}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FFMPeg_GuiSetup", "Setup2\Setup2.vdproj", "{67450FA0-0EC5-4F9C-86D2-87EC8012E14D}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FFMpeg_GUI_Cab", "Cab1\Cab1.vdproj", "{CF159D34-BFB5-4DFC-AF56-DB69B4A50288}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36DD80E2-3220-490D-B0F7-C38D8BEB3495}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{36DD80E2-3220-490D-B0F7-C38D8BEB3495}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{36DD80E2-3220-490D-B0F7-C38D8BEB3495}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{36DD80E2-3220-490D-B0F7-C38D8BEB3495}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{67450FA0-0EC5-4F9C-86D2-87EC8012E14D}.Debug|Any CPU.ActiveCfg = Debug
+		{67450FA0-0EC5-4F9C-86D2-87EC8012E14D}.Release|Any CPU.ActiveCfg = Release
+		{CF159D34-BFB5-4DFC-AF56-DB69B4A50288}.Debug|Any CPU.ActiveCfg = Debug
+		{CF159D34-BFB5-4DFC-AF56-DB69B4A50288}.Debug|Any CPU.Build.0 = Debug
+		{CF159D34-BFB5-4DFC-AF56-DB69B4A50288}.Release|Any CPU.ActiveCfg = Release
+		{CF159D34-BFB5-4DFC-AF56-DB69B4A50288}.Release|Any CPU.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
